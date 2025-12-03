@@ -1,27 +1,23 @@
+öğrenci no : 250541029
+    ad-soyad:şule nur bayğut
+    /**
+ * Exercise4_5.java
+ * Akis ve Stack Diyagrami.
+ */
 public class Exercise4_5 {
+    public static void zoop() {
+        baffle();
+        System.out.print("You won't get a zoop!");
+    }
 
-    public static void zoop(String fred, int bob) {
-        System.out.println(fred);
-        if (bob == 5) {
-            ping("not ");
-        } else {
-            System.out.println("!");
-        }
+    public static void baffle() {
+        System.out.print("No ");
+        zoop();
     }
 
     public static void main(String[] args) {
-        int bizz = 5;
-        int buzz = 2;
-        zoop("just for", bizz);
-        clink(2 * buzz);
-    }
-
-    public static void clink(int fork) {
-        System.out.print("It's ");
-        zoop("breakfast ", fork);
-    }
-
-    public static void ping(String strangStrung) {
-        System.out.println("any " + strangStrung + "more ");
+        System.out.print("Ready ");
+        zoop();
+        System.out.println(" Go!");
     }
 }
