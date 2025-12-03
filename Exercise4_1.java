@@ -1,5 +1,5 @@
 öğrenci no: 250541029
-    ad-soyad: şule nur bayğut
+    ad-soyad: şule nur bayğut 
     /**
  * Exercise4_1.java
  * Tarih yazdırma metotlarını icerir.
